@@ -189,6 +189,7 @@ p {
 	text-align:center;
 	background:#00C2D7;
 	padding:20px 0 8px 0;
+	display:none;
 	}
 .phone_topper p {
 	color:white;

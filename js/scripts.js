@@ -19,3 +19,10 @@ $('#div_demo').videoBG({
 	scale:true,
 	zIndex:0
 });
+
+
+$( "#phonetop_link" ).click(function() {
+  $( "#phoneTop" ).slideToggle( "fast", function() {
+    // Animation complete.
+  });
+});
