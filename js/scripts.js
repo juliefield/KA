@@ -11,16 +11,6 @@ $(function() {
         }); 
     });
 });
-$('.vidbg').videoBG({
-	mp4:'./images/MP4/Working-Space.mp4',
-	ogv:'./images/OGV/Working-Space.ogv',
-	webm:'./images/WEBM/Working-Space.webm',
-	poster:'./images/snapshots/Working-Space.jpg',
-	scale:true,
-	zIndex:0, 
-	
-});
-
 
 $( "#phonetop_link" ).click(function() {
   $( "#phoneTop" ).slideToggle( "fast", function() {
