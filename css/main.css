@@ -2754,5 +2754,8 @@ a {
 	.customized .js-height {
 		height: auto !important;
 	}
+	.img-right {
+		padding-bottom:0px;
+		}
 }
 
