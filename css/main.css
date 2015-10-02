@@ -274,6 +274,7 @@ ul.solutions-nav li.active a {
 }
 .sub .banner {
 	margin-bottom: 20px;
+	padding-top:229px;
 }
 .side-block {
 	margin-left: -4px;
@@ -1560,7 +1561,7 @@ body {
 	margin-bottom: 15px;
 }
 .sub .banner .description {
-	min-height:290px;
+	min-height:376px;
 	}
 .banner p {
 	margin-bottom: 21px;
@@ -2856,6 +2857,13 @@ ul.solutions-nav li {
 	}
 .request-wrap.request-wrap-2 {
 	text-align:center;
+	}	
+.static_testimonial_block {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.static_testimonial {
+	padding-bottom:20px;
 	}	
 }
 
