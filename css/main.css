@@ -1250,7 +1250,7 @@ padding-bottom:70px;
 	margin-bottom:20px;
 	}	
 .static_testimonial_avatar img {
-	min-height: 143px;
+
 }
 .static_testimonial cite.name {
 	color:#686869;
@@ -1316,7 +1316,17 @@ padding-bottom:70px;
 	}			
 .industry_contactbox a:hover {
 	text-decoration:none;
-	}					
+	}	
+
+.support_img {
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+overflow:hidden;
+max-height:370px;
+margin:30px;
+	}
+				
 
 /*END OF MAIN STYLES*/
 
@@ -2749,7 +2759,10 @@ text-align:center;
 }	
 .sub .success .title-wrap {
 	margin-top:50px;
-	}			
+	}	
+.rounded_support_img .img-right	{
+	padding-bottom:0px;
+	}		
 }
 
 @media (max-width: 732px) {
