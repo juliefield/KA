@@ -309,6 +309,9 @@ ul.resources-nav li.inputfield input {
     top: -23px;
 	background:url('../images/search_icon.jpg') no-repeat 5px 8px;
 	padding-left: 30px;
+	-webkit-border-radius: 5px !important;
+-moz-border-radius: 5px !important;
+border-radius: 5px !important;
 	}	
 
 .sub .banner {
@@ -1416,7 +1419,140 @@ margin:30px;
 .blog_pagination .btn-default:hover {
 	background-color:#A5A5A6;
 	border-color:#A5A5A6;
+	}
+/*SIGNUP BAR*/
+.signupbar {
+	padding: 87px 0 108px;
+	background:#20BDD0;
+	text-align:center;
+}
+.signupbar.contact {
+	padding: 48px 0;
+}
+.signupbar h2 {
+	margin: 0;
+	font-size:25px;
+	color:white;
+	margin-bottom:25px;
+}
+.signupbar.contact .heading {
+	width: 76.3%;
+	padding: 0 10px 0 0;
+}
+.signupbar.contact .btn {
+	max-width: 23.6%;
+}
+
+.signupbar .heading {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 10px 0 60px;
+	text-align: center;
+	width: 71.7%;
+	margin: 0;
+	letter-spacing: 0;
+}
+.signupbar .btn {
+	letter-spacing: 0;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+	min-width: 162px;
+	max-width: 28%;
+	letter-spacing: 1px;
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}	
+.signupbar input.form-control {
+	border:0px;
+	-webkit-border-radius: 5px !important;
+-moz-border-radius: 5px !important;
+border-radius: 5px  !important;
+margin-right:15px !important;
+    padding: 24px 18px;
+	margin-bottom:15px;
+}
+.signupbar .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+	margin-left:10px;
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+	}
+p.date {
+	font-size:15px;
+	font-style:italic;
+	font-weight:100;
 	}	
+.blog_detail {
+	padding:50px 50px 50px 50px;
+	}
+.blog_detail h3 {
+	margin-top:35px;
+	color:#303236;
+	}
+.signup_actionbox {
+	margin:0 auto 50px auto;
+	max-width:900px;
+	}
+.signup_actionbox .signupbar {
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding:80px 0;
+}	
+.signup_actionbox .container {
+	max-width:900px;
+	}
+#disqus_thread {
+	max-width:900px;
+	margin:20px auto;
+	margin-bottom:100px;
+	background:#eee;
+	color:black;
+	text-align:center;
+	padding:100px;
+	}	
+.guide_bodycopy {
+	text-align:left;
+	margin-bottom:180px;
+	padding-top:30px;
+	}	
+.guide_bodycopy p {
+	font-size:18px;
+	}				
+.guide_bodycopy ul li {
+	font-size:18px;
+	line-height:33px;
+	}	
+.download_form {
+	margin:35px 0;
+	}
+.download_form input {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}	
+.download_form input.form-control {
+	    padding: 23px 15px;
+		margin-bottom:15px;
+}	
+.download_form .btn-default {
+	    padding: 14px 15px;
+		}	
+.blog_lander .title-wrap p {
+	margin-top:15px;
+	font-weight:100;
+	}
+.video_row {
+	padding:100px 0;
+	}	
+.mobile_on {
+	display:none;
+	}	
+.video_right .videoWrapper {
+	margin-left:30px;
+	}					
 
 /*END OF MAIN STYLES*/
 
@@ -1983,6 +2119,10 @@ body {
 	max-width: 28%;
 	letter-spacing: 1px;
 }
+
+
+
+
 .course-wrap {
 	font-size: 16px;
 }
@@ -2891,7 +3031,49 @@ text-align:center;
     width: 50%;
 	min-height:120px;
 }
-			
+.signupbar input.form-control {
+    padding: 21px 18px;
+}
+.signupbar .btn {
+
+    font-size: 15px;
+    min-width: auto;
+   max-width:100%; 
+    width: 100%;
+}
+.blog_detail {
+	text-align:left;
+	padding:50px 30px 50px 30px;
+	}
+.download_form .btn-default {
+	    min-width: auto;
+   max-width:100%; 
+    width: 100%;
+		}	
+.guide_bodycopy {
+	margin-bottom:50px;
+	}
+.mobile_on {
+	display:block;
+	}
+.desktop_on {
+	display:none;
+	}	
+.video_row {
+	padding:0;
+	text-align:center;
+	}	
+.video_row .videoWrapper {
+	width:100%;
+	}
+.video_row:first-child {
+	padding-top:100px;
+	}
+.video_row h2 {
+	font-size:25px;
+	font-weight:400;
+	margin-top:15px;
+	}											
 }
 
 @media (max-width: 732px) {
@@ -2924,7 +3106,7 @@ ul.solutions-nav li {
 ul.resources-nav {
 	list-style: none;
 	padding-left: 0px;
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 	margin-bottom: 40px
 }
 ul.resources-nav li {
@@ -3031,7 +3213,10 @@ ul.resources-nav li.inputfield .input-group-btn .btn {
     float:none;
 	width:90%;
 	margin:0 auto;
-}		
+}	
+.blog_detail {
+	padding:30px 30px 50px 30px;
+	}		
 }
 
 @media (max-width: 320px) {
