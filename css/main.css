@@ -272,6 +272,45 @@ ul.solutions-nav li a:hover {
 ul.solutions-nav li.active a {
 	color: #303236;
 }
+
+/*RESOURCES NAV*/
+ul.resources-nav {
+	border-bottom: 1px solid #D0D0D0;
+	padding-bottom: 20px;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top:20px;
+}
+ul.resources-nav li {
+	display: inline-block;
+	margin: 0 15px;
+}
+ul.resources-nav li a {
+	color: #CFCECE;
+	font-size: 15px;
+}
+ul.resources-nav li a:hover {
+	color: #303236;
+	text-decoration: none;
+}
+ul.resources-nav li.active a {
+	color: #303236;
+}
+ul.resources-nav li.inputfield {
+	width:200px;
+	position:relative;
+	}
+ul.resources-nav li.inputfield .input-group-btn {
+	display:none;
+	}
+ul.resources-nav li.inputfield input {
+	position:absolute;
+	width: 200px;
+    top: -23px;
+	background:url('../images/search_icon.jpg') no-repeat 5px 8px;
+	padding-left: 30px;
+	}	
+
 .sub .banner {
 	margin-bottom: 20px;
 	padding-top:229px;
@@ -1367,6 +1406,17 @@ margin:30px;
 .blackwhite_logos .col-md-3 {
 	    min-height: 151px;
 		}
+.blog_pagination {
+	margin-bottom:50px;
+	}		
+.blog_pagination .btn-default {
+	background-color:#CACACB;
+	border-color:#CACACB;
+	}
+.blog_pagination .btn-default:hover {
+	background-color:#A5A5A6;
+	border-color:#A5A5A6;
+	}	
 
 /*END OF MAIN STYLES*/
 
@@ -2698,7 +2748,10 @@ body {
 	}	
 .blackwhite_logos .col-md-3  {
 	  float:left;
-		}		
+		}	
+.blog_pagination .btn {
+	margin-bottom:15px;
+	}			
 
 }
 
@@ -2837,7 +2890,8 @@ text-align:center;
 .blackwhite_logos .col-md-3 {
     width: 50%;
 	min-height:120px;
-}				
+}
+			
 }
 
 @media (max-width: 732px) {
@@ -2867,6 +2921,16 @@ ul.solutions-nav li {
 	display: block;
 	margin-bottom: 10px;
 }
+ul.resources-nav {
+	list-style: none;
+	padding-left: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 40px
+}
+ul.resources-nav li {
+	display: block;
+	margin-bottom: 10px;
+}
 .graph_bg {
 	padding-bottom: 250px;
 	background-position: bottom center;
@@ -2892,6 +2956,24 @@ ul.solutions-nav li {
 	float:none;
 	width:100%;
 	}
+ul.resources-nav li.inputfield {
+	margin:0 auto;
+	width:240px;
+	}	
+ul.resources-nav li.inputfield input {
+	position:relative;
+	margin:0 auto;
+	top:0;
+	}	
+ul.resources-nav li.inputfield .input-group-btn {
+	display:block;
+	}	
+ul.resources-nav li.inputfield .input-group-btn .btn {
+	display:inline-block;
+	color:white;
+    min-width: 40px;
+	padding:9px 9px 10px;
+	}		
 
 }
 
