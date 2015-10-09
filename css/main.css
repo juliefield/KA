@@ -1803,6 +1803,13 @@ font-size:15px;
 	min-height:100px;
 }
 
+.sub.careers_pg .banner , .sub.careers_pg .banner .description {
+	margin-bottom:0px;
+	}
+.sub.careers_pg .icon_bullet_block {
+	background:white;
+	}
+
 /*END OF MAIN STYLES*/
 
 
