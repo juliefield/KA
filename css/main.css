@@ -31,8 +31,19 @@
 .icon-facebook:before {
 	content: "\e604";
 }
-.icon-google-plus:before {
-	content: "\e605";
+.icon-google-plus {
+	/*content: "\e605";*/
+	background:url(../images/gplus_icon.png) no-repeat top center;
+	width:32px;
+	height:32px;
+	background-size: 100%;
+}
+.icon-google-plus:hover {
+	/*content: "\e605";*/
+	background:url(../images/gplush_icon_over.png) no-repeat top center;
+	width:32px;
+	height:32px;
+	background-size: 100%;
 }
 .icon-linkedin:before {
 	content: "\e606";
@@ -1196,7 +1207,7 @@ a {
 }
 .img-overlap {
 	position: absolute;
-	top: 80px;
+	top: 0px;
 	width: 100%;
 	left: 47%;
 }
@@ -3139,6 +3150,20 @@ body {
 	z-index: 1;
 	top: -110px;
 	text-align: center;
+}
+.icon-google-plus {
+	/*content: "\e605";*/
+	background:url(../images/gplus_icon.png) no-repeat top center;
+	width:26px;
+	height:26px;
+	background-size: 100%;
+}
+.icon-google-plus:hover {
+	/*content: "\e605";*/
+	background:url(../images/gplush_icon_over.png) no-repeat top center;
+	width:26px;
+	height:26px;
+	background-size: 100%;
 }	
 }
 
@@ -3374,7 +3399,14 @@ text-align:center;
 .request-wrap.request-wrap-2.guidedetail_bottom {
 	margin-bottom:0px;
 	}
-												
+.icon-google-plus {
+	width:40px;
+	height:40px;
+}	
+.icon-google-plus:hover {
+	width:40px;
+	height:40px;
+}													
 }
 
 @media (max-width: 732px) {
