@@ -1176,10 +1176,10 @@ a {
 .video_container {
 	position: absolute;
 	width: 100%;
-	height: 1095px;
-    z-index: 1;
-    top: -410px;
-    text-align: center;
+	height: 795px;
+	z-index: 1;
+	top: -110px;
+	text-align: center;
 }
 .video_banner_height {
 	height: 760px;
@@ -1748,6 +1748,9 @@ margin-top:10px;
 .about_band {
 	background:#eee;
 	margin-bottom:50px;
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 	}
 .team .col-md-3 {
 	margin-bottom:20px;
@@ -3492,6 +3495,11 @@ ul.resources-nav li.inputfield .input-group-btn .btn {
 .contact_form_container {
 	width:100%;
 }
+.about_band {
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+	}
 }
 
 @media (max-width: 479px) {
