@@ -3566,6 +3566,9 @@ ul.resources-nav li.inputfield .input-group-btn .btn {
 .team .col-md-3 {
 	float:none;
 	    width: 100%;
+	}	
+.img-overlap {
+	top:-52px;
 	}			
 }
 
