@@ -1824,10 +1824,19 @@ font-size:15px;
 	background:white;
 	}
 .grey_background.lms_home {
-	   background: #F9F9FA url('../images/lms_ipad_img1.png') 90% -50px no-repeat;
-	   padding-bottom: 20px;
-       padding-top: 100px;
+	   padding-bottom: 0px;
+    padding-top: 30px;
 		}			
+.grey_background.lms_home img {
+	max-width: 140%;
+}
+
+.grey_background.lms_home .description {
+	    padding-top: 130px;
+		}
+.grey_background.lms_home .img-wrap {
+	left: -80px;
+	}
 
 /*END OF MAIN STYLES*/
 
