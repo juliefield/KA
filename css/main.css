@@ -1823,6 +1823,11 @@ font-size:15px;
 .sub.careers_pg .icon_bullet_block {
 	background:white;
 	}
+.grey_background.lms_home {
+	   background: #F9F9FA url('../images/lms_ipad_img1.png') 90% -50px no-repeat;
+	   padding-bottom: 20px;
+       padding-top: 100px;
+		}			
 
 /*END OF MAIN STYLES*/
 
