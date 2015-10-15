@@ -1669,7 +1669,7 @@ border-radius: 0px;
 .pricing_icons a {
 	color:#20BED1;
 	text-decoration:underline;
-	margin-left:20px;
+	/*margin-left:20px;*/
 	font-size:16px;
 	}	
 .pricing_icons h4 {
