@@ -142,6 +142,17 @@ p {
 	color: white;
 	font-size: 18px;
 }
+
+.success_message {
+	text-align: center;
+	background: #00C2D7;
+	padding: 20px 20px 8px 20px;
+	}
+.success_message p {
+	color: white;
+	font-size: 18px;
+	}	
+
 .phone_topper p a {
 	color: white;
 }
