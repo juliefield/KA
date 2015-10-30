@@ -626,6 +626,9 @@ border-radius: 5px !important;
 	color: #3f4146;
 	margin-bottom: 66px;
 }
+.title-wrap h2 {
+	font-size:35px !important;
+}
 .whiteblock .title-wrap {
 	color: #3f4146;
 	margin-bottom: 66px;
@@ -812,6 +815,9 @@ border-radius: 5px !important;
 	line-height: 1.3;
 	margin-bottom: 10px;
 }
+.whitetxt {
+	color:white !important;
+	}
 .course-wrap h2 {
 	font-size: 25px;
 	line-height: 1.4;
@@ -1781,7 +1787,7 @@ margin-top:10px;
 .management-system.contact_bg .title-wrap {
 	margin-bottom:50px;
 	}	
-.management-system.contact_bg h1 {
+.management-system.contact_bg h2 {
 color:white;	
 }
 .management-system.contact_bg p {
@@ -3631,4 +3637,10 @@ ul.resources-nav li.inputfield .input-group-btn .btn {
 .hipster_block .bg-stretch {
     top: 300px;
 }	
+.pricing_columns .col-md-4 .btn {
+	min-width:0px;
+	}
+.pricing_columns.compare_pricing .col-md-3 .btn {
+	min-width:0px;
+	}	
 }
